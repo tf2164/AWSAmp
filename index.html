@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+	<title>Task Tracker</title>
+
+	<link rel="stylesheet" href="main.css" />
+</head>
+<body>
+	
+	<header>
+	
+        <input type="text" id="dayOfWeek" placeholder="Day of Week"/>  <h1>'s List</h1>
+     
+	</header>
+
+
+        <form id="new-task-form">
+			<input 
+				type="text" 
+				name="new-task-input" 
+				id="new-task-input" 
+				placeholder="What do you have planned?" />
+			<input 
+				type="submit"
+				id="new-task-submit" 
+				value="Add task" />
+
+                <!-- <section class="extraOptions">
+                    <input type="radio" id="importanceList" value="high-priority">
+                    <span class="choices">
+                    </span>
+                    <div>High priority</div>
+                    <input type="radio" id="importanceList2" value="low-priority">
+                    <span class="choices">
+                    
+                        </span>
+                        <div>low priority</div>
+                    
+                    
+                    
+                    </section> -->
+		</form>
+
+
+	<main>
+
+
+
+
+
+		<section class="task-list">
+			<h2>To do list <3 </h2>
+
+			<div id="tasks">
+
+			 <div class="task">
+				
+					<div class="actions">
+						<button class="edit">Edit</button>
+						<button class="delete">Delete</button>
+                        <input type="radio" id="checkbox" >
+					</div>
+				</div> 
+
+			</div>
+		</section>
+	</main>
+
+	<script src="main.js"></script>
+</body>
+</html>
